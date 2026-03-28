@@ -2,9 +2,17 @@ import React from 'react'
 
 const Explance = () => {
   return (
-    <section className="w-full bg-white z-10">
+    <section className="relative w-full bg-white overflow-hidden">
       
-      <div className="flex justify-center w-full z-10">
+      {/* BACKGROUND IMAGE */}
+      <img
+        src="/Img/Hero.png"
+        alt="background"
+        className="absolute inset-0 w-full h-full object-cover opacity-20"
+      />
+
+      {/* CONTENT */}
+      <div className="relative z-10 flex justify-center w-full">
         
         <div className="flex flex-col items-center text-center py-16 px-4 mx-auto max-w-screen-xl 
                         lg:grid lg:grid-cols-2 lg:gap-10 lg:text-left lg:py-16 lg:px-6">
@@ -16,13 +24,13 @@ const Explance = () => {
             </h2>
 
             <p className="mb-4 text-black text-sm sm:text-base">
-              Our team of experienced professionals works closely with you to ensure that your vision becomes a reality. 
-              Whether you’re looking to build a powerful online presence, optimize your website for better performance, 
+              Our team of experienced professionals works closely with you to ensure that your vision becomes a reality.
+              Whether you’re looking to build a powerful online presence, optimize your website for better performance,
               or implement marketing strategies that generate leads, your business is in good hands.
             </p>
 
             <p className="mb-4 text-sm sm:text-base">
-              We are strategists, designers and developers. Innovators and problem solvers. 
+              We are strategists, designers and developers. Innovators and problem solvers.
               Small enough to be simple and quick.
             </p>
 
@@ -41,15 +49,6 @@ const Explance = () => {
           </div>
 
         </div>
-      </div>
-
-      {/* BACKGROUND IMAGE */}
-      <div className="flex absolute -z-10 flex-row-reverse z-0">
-        <img
-          src="/Img/Hero.png"
-          alt="background"
-          className="w-full h-48 sm:h-64 md:h-80 lg:h-auto object-cover"
-        />
       </div>
 
     </section>
