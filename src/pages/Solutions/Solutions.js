@@ -1,4 +1,4 @@
-import React from 'react'
+ximport React from 'react'
 
 
 const dataImage = [

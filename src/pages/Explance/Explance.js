@@ -6,7 +6,7 @@ const Explance = () => {
 
 
 
-    <section className='justify-center w-full aglign-center bg-white xl:max-w-full lg:max-w-xl '>
+    <section className='justify-center w-full aglign-center bg-white xl:max-w-full lg:max-w-xl z-10'>
    
 
 
@@ -28,7 +28,7 @@ const Explance = () => {
  </div>
  </div>
 
- <div className='flex flex-row-reverse '>
+ <div className='flex flex-row-reverse z-0'>
  <img src="/Img/Hero.png" className='justify-self-end bg-image bg-cover '></img>
   
  </div>
