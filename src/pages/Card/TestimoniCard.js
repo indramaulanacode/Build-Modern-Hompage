@@ -10,10 +10,13 @@ const TestimoniCard = (props) => {
 
     <ul className='mt-5 flex-shrink-0 justify-center items-center'>
             <div className='flex justify-start items-center'>
-            <li className='flex object-fill w-10 h-10 rounded-full'>
-                <img src={props.image} className="w-10 object-fill h-10 bg-co rounded-full">
-                </img>
-            </li>
+            <li className="flex w-10 h-10 rounded-full overflow-hidden">
+  <img 
+    src={props.image} 
+    alt="profile"
+    className="w-full h-full object-cover"
+  />
+</li>
          
 
             <div className='ml-3'>
